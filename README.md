@@ -28,9 +28,9 @@
 ## Формат инструкции
 
 Инструкция `VINSERTF64X4` вставляет 256-битное значение (из регистра `YMM` или памяти `m256`) в указанную половину 512-битного регистра `ZMM`:
-Пример испольхования:
-VINSERTF64X4 zmm1 {k1}{z}, zmm2, ymm3/m256, imm8
-Enter AVX-512 command:
+**Пример испольхования:
+**VINSERTF64X4 zmm1 {k1}{z}, zmm2, ymm3/m256, imm8
+**Enter AVX-512 command:
 > vinsertf64x4 zmm5{k2}{z}, zmm10, ymm15, 0x01
 
 1) Original command:    vinsertf64x4 zmm5{k2}{z}, zmm10, ymm15, 0x01
